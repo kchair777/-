@@ -1,0 +1,10 @@
+html{font-size: 10px;}
+body{font-size: 1rem;}
+main{padding: 5.2rem 1.5rem 0;}
+.h2{position: relative;padding: 0 0 0 1.7rem;font-size: 2.4rem;color: #343434;line-height: 2.7rem;}
+.h2:after{content:'';position: absolute;left: 0;top: 0;width: 0.4rem;height: 100%;background: liner-gradient(to bottom,#019ce1 .8rem,#014b98 .8rem,#014b98);}
+.board_search{display: flex;}
+.board_search > * {border:1px solid #e1e1e1;}
+.board_search select{width: 10rem;}
+.board_search button{width: 4.9rem;}
+.board_search input{flex:1px;border-left:none;border-right:none;}
