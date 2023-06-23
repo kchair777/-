@@ -1,0 +1,30 @@
+@charset "utf-8";
+header{background: #00c73c;}/* font-size:0은NBSP (non-breaking space)없앨때 */
+header a{vertical-align: middle;}
+header h1{float: left; font-size: 10px;}
+header > div{float: right; padding: 0 0 0 174px;padding: 10px 12px;}
+header h1 a:first-child{display: inline-block;height: 41px; background: url(h1_logo.png)no-repeat 0 0 / 41px auto;vertical-align: middle;}
+header h1 a:last-child{font-size: 17px;color: #fff;padding: 0 0 0 8px;line-height: 41px;vertical-align: middle;}/* vertical-align세로높이를 맞출때 */
+header .create{display: inline-block;height: 22px;line-height: 22px;padding:0 7px;text-align: center;border-radius: 22px; font-size:10px;color: #fff;border: 1px solid #ccc;}  /*inline-block은 옆으로 쌓을수 있고 가로세로높이가 가능하다.*/
+header .search{display: inline-block;width: 22px;height: 22px;font-size: 0;background: url(./ico_search.png) no-repeat center / 9px auto;}
+header nav{clear:both;border-bottom: 1px solid #e2e2e2;background: #fff;padding: 0 10px;}
+header nav ul{text-align: justify;text-align-last: justify;}
+header nav li{display: inline-block;}
+header nav li.on a{position: relative; color:#00c32d; font-weight: bold;   }
+header nav li.on a:after{content:'';position: absolute;bottom: 0;left: 0px;bottom: -1px; width: 100%;height: 2px;background: #00c32d;}
+header nav li a{display: block;font-size: 13.5px;height: 35px;line-height: 35px;}
+/* [본문영역] 네이버카페 모바일 웹 따라만들기 - 웹퍼블리셔를 위한 코딩강의 1-2 */
+.slide {padding: 12.5px;}
+.slide img{width: 100%;max-width: 500px;}
+.main .more{display: block; border-top: 1px solid #e6ede3;border-bottom: 1px solid #e6ede3;}
+.main .more > div{position: relative; width: 235px;padding: 12.5px 0 12.5px 44px; margin: 0 auto;font-size: 10px; background: url(./bu_arrow_right.png)no-repeat right;}
+.main .more > div:before{content:'';position: absolute;width: 35px;left: 0;top: 50%;transform:translateY(-50%);color: #686668; height: 35px;margin-bottom: 5px; background:url(./ico_home.png)no-repeat #00c73c center  / 15px auto;border-radius:35px;}
+.main .more > div span {display: block; font-weight: bold;font-size: 12px;color: #000;}
+.main .more > div span em{color: #27cf58;}
+.main .my_cafe{padding: 26px 12.5px;}
+.main .my_cafe h2 a{display: block;font-size: 15px;color: #000;font-weight: bold;padding: 0 0 10px;border-bottom: 1px solid #000;}
+.main .my_cafe h2 a:after{content:' ';display: inline-block; width: 10px;height: 15px; background: url(./bu_arrow_right.png)no-repeat right / 100% auto;margin: 0 0 0 7px;}
+.main .my_cafe > div {display: table;width: 100%;height: 165px;}
+.main .my_cafe > div > div { display: table-cell;text-align: center;vertical-align: middle;}
+.main .my_cafe > div > div span{display: block;padding: 0 0 20px; font-size: 12px;color: #575757;}
+.main .my_cafe > div > div a{display: inline-block;width: 145px;height: 37.5px;background: #00c73c;font-size:12px ;text-align: center;line-height: 37.5px;color: #000;}
